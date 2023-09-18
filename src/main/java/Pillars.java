@@ -1,4 +1,4 @@
-public class Pillars{
+public class Pillars {
     //Возле дороги стоят столбы. Расстояние между столбами одинаковое и ширина
     //столбов одинаковая. Ваша функция принимает три аргумента:
     //количество столбов (≥ 1);
@@ -7,12 +7,11 @@ public class Pillars{
     //Рассчитайте расстояние между первым и последним столбом в сантиметрах
     //(без учета ширины первого и последнего столба).
 
-    public static int pillars(int numPill, int dist, int width){
+    public static int pillars(int numPill, int dist, int width) {
         if (numPill == 1) {
             return 0;
         } else {
             return (numPill * width) + ((numPill - 1) * (dist * 100)) - (width * 2);
         }
     }
-
 }

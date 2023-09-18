@@ -3,7 +3,7 @@ public class Ghost {
     private String color;
 
     public Ghost() {
-        switch(randomNum) {
+        switch (randomNum) {
             case 1 -> color = "white";
             case 2 -> color = "yellow";
             case 3 -> color = "purple";
