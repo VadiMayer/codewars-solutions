@@ -1,4 +1,7 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+
 //В этой Ката вам будет предоставлен массив уникальных элементов, и ваша задача — переставить значения так,
 // чтобы за первым максимальным значением следовало первое минимальное значение, затем второе максимальное
 // значение, затем второе минимальное значение и т. д.
@@ -10,6 +13,7 @@ public class MaxMinArrays {
     public static int[] solve (int[] arr){
         int[] newArray = new int[arr.length];
         int[] takenNum = new int[arr.length];
+        List<Integer> numbers = new ArrayList<>();
         int max = 0;
         int indexMax = 0;
         int min = Integer.MAX_VALUE;
