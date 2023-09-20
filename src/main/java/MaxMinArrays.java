@@ -9,7 +9,6 @@ public class MaxMinArrays {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(solve(new int[]{9771,9788,5833,9324,96788})));
     }
-
     public static int[] solve (int[] arr){
         int[] newArray = new int[arr.length];
         int[] takenNum = new int[arr.length];
