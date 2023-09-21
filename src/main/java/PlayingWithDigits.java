@@ -18,9 +18,9 @@ public class PlayingWithDigits {
         int result = 0;
         long k = -1;
 
-        for(int i = 0; i < chars.length; i++) {
-            result += (int) Math.pow(Double.parseDouble(String.valueOf(chars[i])), (pow++));
-            if(result % n == 0) {
+        for (char aChar : chars) {
+            result += (int) Math.pow(Double.parseDouble(String.valueOf(aChar)), (pow++));
+            if (result % n == 0) {
                 k = result / n;
                 return k;
             }
