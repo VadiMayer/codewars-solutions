@@ -10,22 +10,21 @@
 //Существует ли целое число k, такое как: (a ^ p + b ^ (p + 1) + c ^ (p + 2) + d ^ (p + 3) + ...) = n * k
 //Если это так, мы вернем k, если нет, вернем -1.
 //Примечание: n и p всегда будут задаваться как строго положительные целые числа.
-public class DigPow {
+public class PlayingWithDigits {
     public static long digPow(int n, int p) {
         String num = String.valueOf(n);
         char[] chars = num.toCharArray();
         int pow = p;
         int result = 0;
+        long k = -1;
 
         for(int i = 0; i < chars.length; i++) {
             result += (int) Math.pow(Double.parseDouble(String.valueOf(chars[i])), (pow++));
-        }
-
-        for(int i = 0; i < Integer.MAX_VALUE; i++) {
-            if (n * i == result) {
-                return i;
+            if(result % n == 0) {
+                k = result / n;
+                return k;
             }
         }
-        return -1;
+        return k;
     }
 }
