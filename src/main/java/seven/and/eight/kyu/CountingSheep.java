@@ -1,3 +1,5 @@
+package seven.and.eight.kyu;
+
 public class CountingSheep {
     static int countSheeps(Boolean[] arrayOfSheeps) {
         int count = 0;

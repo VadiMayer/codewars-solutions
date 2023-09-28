@@ -1,3 +1,5 @@
+package six.kyu;
+
 import java.util.ArrayList;
 import java.util.List;
 

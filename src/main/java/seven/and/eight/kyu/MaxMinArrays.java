@@ -1,3 +1,5 @@
+package seven.and.eight.kyu;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

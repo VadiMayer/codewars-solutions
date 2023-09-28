@@ -1,3 +1,5 @@
+package seven.and.eight.kyu;
+
 public class FromAToZ {
     public static String gimmeTheLetters(String s){
         String[] arrayStr = s.split("-");

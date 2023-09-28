@@ -1,3 +1,5 @@
+package seven.and.eight.kyu;
+
 public class Ghost {
     private int randomNum = (int) (Math.random() * 4) + 1;
     private String color;

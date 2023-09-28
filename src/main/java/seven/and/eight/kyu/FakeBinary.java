@@ -1,3 +1,5 @@
+package seven.and.eight.kyu;
+
 public class FakeBinary {
     public static String fakeBin(String numberString) {
         char[] chars = numberString.toCharArray();

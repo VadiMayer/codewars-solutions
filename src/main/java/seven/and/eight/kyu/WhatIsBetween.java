@@ -1,3 +1,5 @@
+package seven.and.eight.kyu;
+
 public class WhatIsBetween {
     public static int[] between(int a, int b) {
         int size = 0;

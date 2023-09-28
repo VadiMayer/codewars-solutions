@@ -1,3 +1,5 @@
+package seven.and.eight.kyu;
+
 import java.util.Arrays;
 
 public class TwoToOne {

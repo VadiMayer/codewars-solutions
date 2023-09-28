@@ -1,3 +1,5 @@
+package seven.and.eight.kyu;
+
 import java.time.LocalDate;
 
 public class IsYourPeriodLate {
