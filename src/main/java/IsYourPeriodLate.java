@@ -13,8 +13,7 @@ public class IsYourPeriodLate {
             if((last.isAfter(today) && !(last.minusDays(i).equals(today))) ||
                     (last.isBefore(today) && !(last.plusDays(i).equals(today)))) {
                 pastDays++;
-            } else
-                return true;
+            }
             if(pastDays >= cycleLength) {
                 return true;
             }
